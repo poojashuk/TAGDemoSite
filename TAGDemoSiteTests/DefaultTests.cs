@@ -16,7 +16,7 @@ namespace TAGDemoSite.Tests
         {
             Default test = new Default();
             var result = test.AddTwoPostiveNumber(10, 10);
-            Assert.IsTrue(result == 20);
+            Assert.IsTrue(result == 60);
             //Assert.Fail();
         }
     }
