@@ -11,7 +11,16 @@ namespace TAGDemoSite
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+           // int result = AddTwoPostiveNumber(2, 4);
+        }
+        public int AddTwoPostiveNumber(int a, int b)
+        {
+            if (a < 0 || b < 0)
+            {
+                return -1;
+            }
+            return a + b;
         }
     }
+
 }
